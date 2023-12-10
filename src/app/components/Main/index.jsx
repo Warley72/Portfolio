@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 import "../Main/style.sass";
 import Image from "next/image";
@@ -7,12 +7,12 @@ export default function Main() {
   return (
     <>
       <main>
-        <div className="container-image">
+        <div  className="container-image">
           <Image
             className="image-perfil"
             src="/perfil.svg"
-            width={250}
-            height={250}
+            width={500}
+            height={500}
             priority
           />
         </div>
@@ -27,8 +27,14 @@ export default function Main() {
             />
             <h1>Carlos Warley</h1>
           </div>
-          <h2 className="text">Software engineer | React-native</h2>
+          <h2 className="text-profissao">Software engineer | React-native</h2>
           <p className="text">
+            Lorem ipsum dolor sit amet. Et autem maiores qui pariatur amet est
+            labore fugiat non mollitia quis. Et voluptates facere in
+            consequuntur magnam qui deleniti impedit in voluptatibus fugit.
+            Lorem ipsum dolor sit amet. Et autem maiores qui pariatur amet est
+            labore fugiat non mollitia quis. Et voluptates facere in
+            consequuntur magnam qui deleniti impedit in voluptatibus fugit.
             Lorem ipsum dolor sit amet. Et autem maiores qui pariatur amet est
             labore fugiat non mollitia quis. Et voluptates facere in
             consequuntur magnam qui deleniti impedit in voluptatibus fugit.
@@ -43,7 +49,7 @@ export default function Main() {
                 priority
               />
               <button className="button-gitHub">
-                <a href="#">Git-hub</a>
+                <a href="https://github.com/Warley72" target="_blank">Git-Hub</a>
               </button>
             </div>
             <div className="content-button-linkedin">
@@ -55,7 +61,7 @@ export default function Main() {
                 priority
               />
               <button className="button-linkedin">
-                <a href="#">LinkEdin</a>
+                <a href="https://www.linkedin.com/in/carlos-warley/" target="_blank">LinkEdin</a>
               </button>
             </div>
           </div>

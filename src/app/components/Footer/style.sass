@@ -1,0 +1,82 @@
+@use './src/app/styles/variables'
+@use './src/app/styles/mixins'
+
+footer
+    height: 10%
+    width: 100%
+    background-color: variables.$bg-color-secondary
+
+h1
+    text-align: center
+    font-size: 40px
+    color: variables.$green
+    font-weight: normal
+
+.contact
+    display: flex
+    justify-content: space-between
+    margin: 16px 100px 0 100px
+
+.instagram
+    display: flex
+    justify-content: center
+    align-items: center
+    gap: 0.62rem
+
+.email
+    display: flex
+    justify-content: center
+    align-items: center
+    gap: 10px
+
+.link-footer
+    font-size: 24px
+
+.design
+    margin-top: 16px
+    display: flex
+    justify-content: center
+    align-items: center
+
+@media only screen and (max-width: 767px)
+    footer
+        margin-top: 5rem
+        height: 9.3rem
+        width: 100%
+        background-color: variables.$bg-color-secondary
+
+        h1
+            text-align: center
+            font-size: 1.87rem
+            color: variables.$green
+            font-weight: normal
+
+    .contact
+        display: flex
+        justify-content: space-between
+        margin-top: 0.93rem
+        margin-left: 2.5rem
+
+    .image-footer
+        height: 18px
+        width: 20px
+
+    .instagram
+        display: flex
+        justify-content: center
+        gap: 0.62rem
+
+    .email
+        display: flex
+        justify-content: center
+        gap: 0.62rem
+        width: 20px
+
+    .link-footer
+        font-size: 16px
+
+    .design
+        margin-top: 16px
+        display: flex
+        justify-content: center
+        align-items: center

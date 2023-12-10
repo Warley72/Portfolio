@@ -1,29 +1,104 @@
 @use './src/app/styles/variables'
 @use './src/app/styles/mixins'
 
+main
+    margin: 100px 100px 100px 100px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    gap: 80px
+
+.helloWorld
+    display: flex
+    justify-content: center
+    align-items: center
+    gap: 10px
+    margin-bottom: 25px
+    color: variables.$green
+
+h1
+    font-size: 40px
+
+.text-profissao
+    font-size: 40px
+    color: variables.$text-color
+    display: flex
+    justify-content: center
+    margin-bottom: 25px
+
+.text
+    font-size: 24px
+    color: variables.$text-color
+    display: flex
+    justify-content: center
+    margin-bottom: 40px
+
+.buttons
+    display: flex
+    justify-content: center
+    gap: 40px
+
+a
+    text-decoration: none
+    color: variables.$text-color
+    cursor: pointer
+    transition: color 0.3s
+
+a:hover
+    color: variables.$green
+    transition: 0.3s
+
+.content-button-git-hub
+    @include mixins.content-btn
+
+.button-gitHub
+    @include mixins.btn
+
+.content-button-linkedin
+    @include mixins.content-btn
+
+.button-linkedin
+    @include mixins.btn
+
 @media only screen and (max-width: 767px)
+    main
+        display: flex
+        flex-direction: column
+        margin: 2rem 1rem 2rem 1rem
+        gap: 10px
+
     .container-image
-        margin: 3.87rem 2rem 1.87rem 2rem
         display: flex
         justify-content: center
 
+    .image-perfil
+        height: 250px
+        width: 250px
+
     .container-presentation
-        margin: 0 2rem 0 2rem
+        margin: 0 1rem 0 1rem
 
     .helloWorld
         display: flex
         justify-content: center
         align-items: center
         gap: 10px
-        margin-bottom: 25px
+        margin-bottom: 15px
         color: variables.$green
+
+    .text-profissao
+        font-size: 20px
+        color: variables.$text-color
+        display: flex
+        justify-content: center
+        margin-bottom: 16px
 
     .text
         font-size: 20px
         color: variables.$text-color
         display: flex
         justify-content: center
-        margin-bottom: 25px
+        margin-bottom: 16px
 
     .buttons
         display: flex

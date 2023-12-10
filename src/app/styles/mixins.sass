@@ -14,3 +14,39 @@
     cursor: pointer
     text-decoration: none
     padding: 0.6rem 0.9rem
+
+@mixin card
+    width: 20rem
+    border-radius: 2rem
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.7)
+    display: flex
+    flex-direction: column
+
+.card-img
+    width: 100%
+    border-radius: 2rem 2rem 0 0
+
+.card-title
+    text-align: center
+    font-size: 25px
+    font-weight: normal
+    color: variables.$green
+
+.card-description
+    margin: 1rem 
+    margin-bottom: 0.31rem
+    color: variables.$text-color
+
+.card-btn
+    text-align: center
+    width: 60%
+    border-radius: 0.31rem
+    padding: 0.5rem 1rem 0.5rem
+    background-color: variables.$green
+    color: variables.$text-color
+    border-color: variables.$green
+    font-weight: 500
+    text-decoration: none
+    margin: 1rem
+    margin-left: 4rem
+    margin-bottom: 1.56rem

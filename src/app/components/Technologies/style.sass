@@ -2,22 +2,44 @@
 @use './src/app/styles/mixins'
 
 .container-technologies
-    margin: 3.87rem 2rem 1.87rem 2rem
+    margin-left: 100px
+    margin-right: 100px
     display: flex
-    flex-direction: column
     justify-content: center
+    align-items: center
+    gap: 80px
 
 .technologies
     display: flex
     justify-content: center
     align-items: center
     gap: 15px
-    margin-bottom: 20px
-
+    
 p
     font-size: 25px
-    
     color: variables.$text-color
 
-span
-    border-bottom: 1px solid variables.$green
+@media only screen and (max-width: 767px)
+    .container-technologies
+        margin-left: 0px
+        margin-right: 0px
+        display: flex
+        flex-direction: column
+        justify-content: center
+        gap: 15px
+
+    .technologies
+        display: flex
+        justify-content: center
+        align-items: center
+        gap: 15px
+        margin-bottom: 20px
+
+    p
+        font-size: 25px
+
+        color: variables.$text-color
+
+    span
+        margin: 0rem 2rem 0rem 2rem
+        border-bottom: 1px solid variables.$green
