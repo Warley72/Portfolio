@@ -18,9 +18,8 @@ export default function Worlks() {
           />
           <h1 className="card-title">Projeto</h1>
           <p className="card-description">
-            Lorem ipsum dolor sit amet. Et autem maiores qui pariatur amet est
-            labore fugiat non mollitia quis. Et voluptates facere in
-            consequuntur magnam qui deleniti impedit.
+            É com grande entusiasmo que compartilhamos um do meus projetos
+            desenvolvido.
           </p>
           <a className="card-btn" href="">
             Ver projeto
@@ -38,9 +37,8 @@ export default function Worlks() {
           />
           <h1 className="card-title">Projeto</h1>
           <p className="card-description">
-            Lorem ipsum dolor sit amet. Et autem maiores qui pariatur amet est
-            labore fugiat non mollitia quis. Et voluptates facere in
-            consequuntur magnam qui deleniti impedit.
+            É com grande entusiasmo que compartilhamos um do meus projetos
+            desenvolvido.
           </p>
           <a className="card-btn" href="">
             Ver projeto
@@ -58,9 +56,8 @@ export default function Worlks() {
           />
           <h1 className="card-title">Projeto</h1>
           <p className="card-description">
-            Lorem ipsum dolor sit amet. Et autem maiores qui pariatur amet est
-            labore fugiat non mollitia quis. Et voluptates facere in
-            consequuntur magnam qui deleniti impedit.
+            É com grande entusiasmo que compartilhamos um do meus projetos
+            desenvolvido.
           </p>
           <a className="card-btn" href="">
             Ver projeto

@@ -17,7 +17,9 @@ export default function Footer() {
               height={50}
               priority
             />
-            <a className="link-footer" href="">warley02</a>
+            <a className="link-footer" href="https://www.instagram.com/warley02/" target="_blank">
+              warley02
+            </a>
           </div>
           <div className="email">
             <Image
@@ -28,7 +30,9 @@ export default function Footer() {
               height={50}
               priority
             />
-            <a className="link-footer" href="">carloswarley0</a>
+            <a className="link-footer" href="#" target="_blank">
+              carloswarley0
+            </a>
           </div>
         </div>
         <div className="design">

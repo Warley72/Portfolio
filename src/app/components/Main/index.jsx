@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 import "../Main/style.sass";
 import Image from "next/image";
@@ -7,7 +7,7 @@ export default function Main() {
   return (
     <>
       <main>
-        <div  className="container-image">
+        <div className="container-image">
           <Image
             className="image-perfil"
             src="/perfil.svg"
@@ -25,19 +25,22 @@ export default function Main() {
               height={40}
               priority
             />
-            <h1>Carlos Warley</h1>
+            <h1>Hello World!</h1>
           </div>
           <h2 className="text-profissao">Software engineer | React-native</h2>
           <p className="text">
-            Lorem ipsum dolor sit amet. Et autem maiores qui pariatur amet est
-            labore fugiat non mollitia quis. Et voluptates facere in
-            consequuntur magnam qui deleniti impedit in voluptatibus fugit.
-            Lorem ipsum dolor sit amet. Et autem maiores qui pariatur amet est
-            labore fugiat non mollitia quis. Et voluptates facere in
-            consequuntur magnam qui deleniti impedit in voluptatibus fugit.
-            Lorem ipsum dolor sit amet. Et autem maiores qui pariatur amet est
-            labore fugiat non mollitia quis. Et voluptates facere in
-            consequuntur magnam qui deleniti impedit in voluptatibus fugit.
+            Olá, sou Carlos Warley, um entusiasta da tecnologia. Tenho
+            experiência como instrutor e trabalhei na SuperGeeks com
+            desenvolvimento de software e jogos. Dentre o conteúdo ensinado,
+            incluem-se Robótica com Arduino; Produção de jogos com Construct3 e
+            GDevelop (no code); Produção de jogos com C# na Unity; Produção de
+            jogos com GDScript no Godot; Introdução à programação com Python;
+            Programação web com HTML, CSS e JavaScript. Tenho como hobby a
+            criação ocasional de jogos, utilizando a ferramenta Godot 4. Gosto
+            de demonstrar minha paixão por explorar diferentes aspectos da
+            programação. Destaco-me como desenvolvedor mobile especializado na
+            criação de interfaces de sites e apps, com foco em tecnologias como
+            TypeScript, React Native e React.
           </p>
           <div className="buttons">
             <div className="content-button-git-hub">
@@ -49,7 +52,13 @@ export default function Main() {
                 priority
               />
               <button className="button-gitHub">
-                <a href="https://github.com/Warley72" target="_blank">Git-Hub</a>
+                <a
+                  className="link-button"
+                  href="https://github.com/Warley72"
+                  target="_blank"
+                >
+                  Git-Hub
+                </a>
               </button>
             </div>
             <div className="content-button-linkedin">
@@ -61,7 +70,13 @@ export default function Main() {
                 priority
               />
               <button className="button-linkedin">
-                <a href="https://www.linkedin.com/in/carlos-warley/" target="_blank">LinkEdin</a>
+                <a
+                  className="link-button"
+                  href="https://www.linkedin.com/in/carlos-warley/"
+                  target="_blank"
+                >
+                  Linkedin
+                </a>
               </button>
             </div>
           </div>
