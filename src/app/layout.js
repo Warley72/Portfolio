@@ -5,7 +5,7 @@ const inter = Roboto({
   weight: ['300', '400', '500', '700']
 })
 export const metadata = {
-  title: 'Carlos Warley',
+  title: 'Portfolio Warley',
   description: 'Carlos Warlety is a software engineer...',
 }
 

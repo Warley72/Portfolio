@@ -13,8 +13,8 @@ export default function Footer() {
               className="image-footer"
               src="/instagram.svg"
               alt="Imagem do instagram"
-              width={60}
-              height={50}
+              width={50}
+              height={40}
               priority
             />
             <a className="link-footer" href="https://www.instagram.com/warley02/" target="_blank">
@@ -26,8 +26,8 @@ export default function Footer() {
               className="image-footer"
               src="/email.svg"
               alt="imagemm do email"
-              width={60}
-              height={50}
+              width={50}
+              height={40}
               priority
             />
             <a className="link-footer" href="#" target="_blank">

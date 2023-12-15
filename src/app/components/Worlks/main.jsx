@@ -56,7 +56,7 @@ export default function Worlks() {
           />
           <h1 className="card-title">Projeto</h1>
           <p className="card-description">
-            É com grande entusiasmo que compartilhamos um do meus projetos
+            É com grande entusiasmo que compartilho um do meus projetos
             desenvolvido.
           </p>
           <a className="card-btn" href="">

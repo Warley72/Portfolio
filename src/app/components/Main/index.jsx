@@ -16,6 +16,7 @@ export default function Main() {
             priority
           />
         </div>
+
         <section className="container-presentation">
           <div className="helloWorld">
             <Image
@@ -25,7 +26,7 @@ export default function Main() {
               height={40}
               priority
             />
-            <h1>Hello World!</h1>
+            <h1 className="text-hello">Hello World!</h1>
           </div>
           <h2 className="text-profissao">Software engineer | React-native</h2>
           <p className="text">
