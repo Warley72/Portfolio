@@ -16,7 +16,6 @@ export default function Main() {
             priority
           />
         </div>
-
         <section className="container-presentation">
           <div className="helloWorld">
             <Image
