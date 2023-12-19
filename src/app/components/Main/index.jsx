@@ -8,9 +8,10 @@ export default function Main() {
     <>
       <main>
         <div className="container-image">
+
           <Image
-            className="image-perfil"
-            src="/perfil.svg"
+            className="image-foto"
+            src="/foto.jpeg"
             width={500}
             height={500}
             priority
