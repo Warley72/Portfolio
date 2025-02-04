@@ -3,8 +3,11 @@ import React from "react";
 import GlobalStyles from "./styles/globalStyles";
 import { ThemeProvider } from "styled-components";
 import theme from "./styles/theme";
+
 import Introduction from "./components/layout/introduction/introduction";
 import Technology from "./components/layout/technology/technology";
+import Projects from "./components/layout/Projects/Projects";
+import Footer from "./components/layout/footer/footer";
 
 export default function App() {
   return (
@@ -13,6 +16,8 @@ export default function App() {
         <div>
           <Introduction />
           <Technology />
+          <Projects />
+          <Footer />
         </div>
     </ThemeProvider>
   );

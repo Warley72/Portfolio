@@ -9,9 +9,9 @@ export const ContainerMainImage = styled.div`
     flex: 1;
     display: flex;
     width: 100%;
-    max-width: 500px;
+    max-width: 550px;
     border: 3px solid #23C16B;
-    border-radius: 50%;
+    border-radius: 25%;
 `
 export const ContainerPresentation = styled.div`
     flex: 1;
