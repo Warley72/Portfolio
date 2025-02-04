@@ -1,8 +1,10 @@
+import { ContainerButtonLinkedin, StyleButtonLinkedin } from "./style"
 
 export default function ButtonLinkedin() {
     return(
-        <div>
-            <h1>Button do linkedin</h1>
-        </div>
+        <ContainerButtonLinkedin>
+            <img src="./linkedin.svg" alt="buttonLinkedin" />
+            <StyleButtonLinkedin><a target="_blank" href="https://www.linkedin.com/in/carlos-warley/">Linkedin</a></StyleButtonLinkedin>
+        </ContainerButtonLinkedin>
     )
 }
