@@ -1,4 +1,4 @@
-import { ContainerTechnology, ContainerSkill, StyleTitle, } from "./style";
+import { ContainerTechnology, ContainerSkill, StyleTitle,} from "./style";
 
 export default function Technology() {
   return (
@@ -6,7 +6,7 @@ export default function Technology() {
       <ContainerTechnology>
         <ContainerSkill>
           <img src="./react.svg" alt="react" />
-          <StyleTitle>React</StyleTitle>
+          <StyleTitle>React </StyleTitle>
         </ContainerSkill>
         <ContainerSkill>
           <img src="./react.svg" alt="next" />
@@ -17,7 +17,6 @@ export default function Technology() {
           <StyleTitle>TypeScript</StyleTitle>
         </ContainerSkill>
       </ContainerTechnology>
-      
     </>
   );
 }

@@ -16,7 +16,7 @@ export const ContainerMainImage = styled.div`
     flex: 1;
     display: flex;
     border: 3px solid #23C16B;
-    border-radius: 30%;
+    border-radius: 20%;
     height: 360px;
 `
 export const MainImage = styled.div`
@@ -42,7 +42,7 @@ export const ContainerHelloWorld = styled.div`
     gap: 16px;
 `
 export const StyleTextHelloWorld = styled.div`
-    font-size: 40px;
+    font-size: clamp(26px, 2.5vw, 40px);
     color: #23C16B;
 `
 export const ContainerAbout = styled.div`
@@ -65,4 +65,7 @@ export const StyleText = styled.p`
 export const ContainerButtons = styled.div`
     display: flex;
     gap: 40px;
+    @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+        gap: 10px;
+  }
 `

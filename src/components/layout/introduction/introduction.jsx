@@ -1,5 +1,5 @@
 import React from "react";
-import Typical from "react-typical";
+import Typewriter from "typewriter-effect";
 
 import ButtonGitHub from "../../ui/buttonGitHub/buttonGitHub";
 import ButtonLinkedin from "../../ui/buttonLinkedin/buttonLinkedin";
@@ -21,10 +21,14 @@ export default function Introduction() {
         <ContainerHelloWorld>
           <img src="./mao.svg" />
           <StyleTextHelloWorld>
-            <Typical
-              steps={["Hello World!!", 2000, "I'am Carlos Warley!!", 2000]}
-              loop={Infinity}
-              wrapper="p"
+            <Typewriter
+              options={{
+                strings: ["Hello World!!", "I'am Carlos Warley"],
+                autoStart: true,
+                loop: true,
+                delay: 50,
+                deleteSpeed: 30,
+              }}
             />
           </StyleTextHelloWorld>
         </ContainerHelloWorld>

@@ -16,7 +16,7 @@ export default function App() {
         <div>
           <Introduction />
           <Technology />
-          <Projects />
+          <Projects/>
           <Footer />
         </div>
     </ThemeProvider>

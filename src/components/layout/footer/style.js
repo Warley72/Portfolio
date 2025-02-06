@@ -10,6 +10,14 @@ export const ContainerFooter = styled.div`
     background-color: #2B2B2B;
     color: #23C16B;
 
+    img {
+        width: 50px;
+        height: auto;
+        @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+            width: 30px;
+        }
+    }
+
     @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
     padding: 0px 20px;
   }
@@ -25,6 +33,7 @@ export const ContaneirNetwork = styled.div`
 
 @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
     flex-direction: column;
+    gap: 30px;
   }
 `
 export const ContainerMidia = styled.div`
@@ -37,6 +46,11 @@ export const ContainerDesign = styled.div`
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
+    img {
+        width: 200px;
+        height: auto;
+    }
+
 `
 export const StyleText = styled.p`
     font-size: 24px;

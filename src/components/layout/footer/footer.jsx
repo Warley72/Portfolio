@@ -17,7 +17,7 @@ export default function Footer() {
                 </ContainerMidia>
             </ContaneirNetwork>
             <ContainerDesign>
-                <img src="/Design.svg" alt="design" />
+                <img  src="/Design.svg" alt="design" />
             </ContainerDesign>
         </ContainerFooter>
     )
