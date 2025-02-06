@@ -1,4 +1,4 @@
-import { ContainerTechnology, ContainerSkill, StyleTitle,Divider } from "./style";
+import { ContainerTechnology, ContainerSkill, StyleTitle, } from "./style";
 
 export default function Technology() {
   return (
@@ -17,7 +17,7 @@ export default function Technology() {
           <StyleTitle>TypeScript</StyleTitle>
         </ContainerSkill>
       </ContainerTechnology>
-      <Divider></Divider>
+      
     </>
   );
 }

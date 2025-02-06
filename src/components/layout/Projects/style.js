@@ -7,6 +7,11 @@ export const ContainerProjets = styled.div`
     gap: 100px;
     
     margin: 80px 0px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+    flex-direction: column;
+    margin: 40px 40px;
+  }
 `
 export const ContainerProjet = styled.div`
     display: flex;

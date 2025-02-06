@@ -9,6 +9,10 @@ export const ContainerFooter = styled.div`
     height: 250px;
     background-color: #2B2B2B;
     color: #23C16B;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+    padding: 0px 20px;
+  }
 `
 export const ContainerTitle = styled.div`
     display: flex;
@@ -18,6 +22,10 @@ export const ContainerTitle = styled.div`
 export const ContaneirNetwork = styled.div`
     display: flex;
     justify-content: space-between;
+
+@media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+    flex-direction: column;
+  }
 `
 export const ContainerMidia = styled.div`
     display: flex;
