@@ -17,7 +17,6 @@ export const ContainerFooter = styled.div`
             width: 30px;
         }
     }
-
     @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
     padding: 0px 20px;
   }
@@ -50,10 +49,15 @@ export const ContainerDesign = styled.div`
         width: 200px;
         height: auto;
     }
-
 `
-export const StyleText = styled.p`
+export const StyleText = styled.a`
     font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; 
+
+    &:hover {
+        color: #086B35;
+    }
 `
 export const StyleContact = styled.p`
     font-size: 40px;

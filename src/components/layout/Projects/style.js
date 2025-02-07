@@ -4,6 +4,7 @@ export const ContainerProjets = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 50px;
     margin: 80px 0px;
 
@@ -21,6 +22,11 @@ export const ContainerProjet = styled.div`
     background-color: #3B3B3B;
     border-radius: 25px;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out; 
+
+    &:hover {
+        transform: translateY(-5px); 
+    }
 `
 export const ContainerImageProjet = styled.div`
     display: flex;
