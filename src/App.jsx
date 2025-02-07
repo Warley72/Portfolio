@@ -19,6 +19,7 @@ export default function App() {
           <Technology/>
           <Projects/>
           <Footer />
+          
         </div>
     </ThemeProvider>
   );
