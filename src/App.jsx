@@ -5,9 +5,10 @@ import { ThemeProvider } from "styled-components";
 import theme from "./styles/theme";
 
 import Introduction from "./components/layout/introduction/introduction";
-import Technology from "./components/layout/technology/technology";
+import Technology from "./components/layout/technology/Technology";
 import Projects from "./components/layout/Projects/Projects";
 import Footer from "./components/layout/footer/footer";
+
 
 export default function App() {
   return (
@@ -15,7 +16,7 @@ export default function App() {
       <GlobalStyles />
         <div>
           <Introduction />
-          <Technology />
+          <Technology/>
           <Projects/>
           <Footer />
         </div>
